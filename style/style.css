@@ -240,3 +240,40 @@
   font-size: 7px;
   position: absolute;
 }
+
+/*cybertruck-section*/
+
+.cybertruck {
+  height: 100vh;
+  background-image: url(https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.cybertruck svg {
+  position: absolute;
+  width: 450px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-cybertruck {
+  background-color: transparent;
+  color: rgb(162, 163, 165);
+  text-transform: uppercase;
+  border-radius: 1px;
+  font-weight: 700;
+}
+
+.cybertruck-order-now-btn {
+  border-top: 3px solid #8e8e8e;
+}
+
+.cybertruck-demo-derive-btn {
+  background-color: transparent;
+
+  font-weight: 600;
+  border: 1px solid rgba(128, 128, 128, 0.755);
+}
