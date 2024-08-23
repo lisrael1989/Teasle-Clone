@@ -192,7 +192,6 @@
 }
 
 /*model x-section*/
-
 .third-section {
   height: 100vh;
   background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png);
@@ -242,7 +241,6 @@
 }
 
 /*cybertruck-section*/
-
 .cybertruck {
   height: 100vh;
   background-image: url(https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg);
@@ -276,4 +274,59 @@
 
   font-weight: 600;
   border: 1px solid rgba(128, 128, 128, 0.755);
+}
+
+/*footer*/
+.cars-info-footer {
+  height: 60vh;
+  background-color: black;
+  color: rgb(208, 209, 210);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.611);
+}
+
+.cars-info-footer p {
+  font-size: 12px;
+  text-align: center;
+  width: 550px;
+  margin-bottom: 10px;
+  position: relative;
+  line-height: 18px;
+}
+
+.cars-info-footer p sub {
+  top: 0;
+  left: -3px;
+  font-size: 7px;
+  position: absolute;
+}
+
+.footer-car-link {
+  color: white;
+}
+
+.footer-links nav {
+  margin-top: 50px;
+}
+
+.footer-links nav ul {
+  display: flex;
+}
+
+.footer-links nav ul li {
+  margin-right: 20px;
+
+  list-style: none;
+}
+
+.footer-links nav ul li a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
 }
