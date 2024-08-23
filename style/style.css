@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Universal';
+  src: url(../fonts/UniversalSans/Universal.ttf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Universal', sans-serif;
+}
