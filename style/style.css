@@ -144,3 +144,49 @@
   color: rgb(57, 60, 65);
   font-weight: 600;
 }
+
+/*second-section*/
+.second-section {
+  height: 100vh;
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+/*Second SECTION-INFO*/
+.second-section-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.second-section-info h1 {
+  color: white;
+  font-size: 3.5em;
+}
+
+.second-section-info a {
+  color: white;
+  font-size: 1.75em;
+  margin-bottom: 20px;
+}
+
+.second-section-info p {
+  color: white;
+  font-size: 1.1em;
+  position: relative;
+  font-weight: 900;
+  font-weight: bold;
+}
+
+.second-section-info p sub {
+  color: white;
+  top: 0;
+  font-size: 7px;
+  position: absolute;
+}
